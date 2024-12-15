@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtle Tools</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/utilities.css">
+</head>
+<body>
+    <div class="start">
+        <h1>Python Turtle Tools</h1>
+    </div>
+    <section class="main-content">
+        <header>
+            <h2 class="arabic">
+                الأجزاء الأساسية في بدء الرسم
+            </h2>
+        </header>
+        <div class="code">
+            <p>
+                import <span class="turtle-file">turtle</span>
+            </p>
+            <p>
+                pencil = <span class="turtle-file">turtle</span>.<span class="turtle-method">Turtle()</span>
+            </p>
+            <div class="important-note">
+                <p class="arabic">نبدأ بالرسم هنا</p>
+            </div>
+
+            <p>
+                <span class="turtle-file">turtle</span>.<span class="turtle-method">done()</span>
+            </p>
+        </div>
+    </section>
+    <section class="main-content">
+        <header>
+            <h2 class="arabic">
+                ما هي الأدوات المستخدمة في الرسم؟
+            </h2>
+        </header>
+        <div class="container flex m-gap">
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.forward(distance) | <span class="turtle-file">pencil</span>.fd(distance)</p></div> 
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.backward(distance) | <span class="turtle-file">pencil</span>.bk(distance) | <span class="turtle-file">pencil</span>.back(distance)</p></div> 
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.left(degree) | <span class="turtle-file">pencil</span>.lt(degree)</p></div> 
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.right(degree) | <span class="turtle-file">pencil</span>.rt(degree)</p></p></div> 
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.circle(radius, extent, steps)</p></div> 
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.goto(x, y) | <span class="turtle-file">pencil</span>.setpos(x, y) | <span class="turtle-file">pencil</span>.setposition(x, y)</p></div>
+               
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.teleport(x, y)</p></div>
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.setx(x)</p></div>
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.sety(y)</p></div>
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.seth(to_angle) | <span class="turtle-file">pencil</span>.setheading(to_angle)</p></div>
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.home()</p></div>
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.dot(size, color)</p></div>
+               <div> <p class="code turtle-method box"><span class="turtle-file">pencil</span>.speed(speed)</p></div>
+        </div>
+    </section>
+    <section class="main-content">
+        <header>
+            <h2 class="arabic">
+                ما هي الأدوات التي تخبرك بمكان وحالة القلم؟
+            </h2>
+        </header>
+        <div class="container flex m-gap">
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.position() | <span class="turtle-file">pencil</span>.pos()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.towards(x, y)</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.xcor()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.ycor()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.heading()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.distance(x, y) | <span class="turtle-file">pencil</span>.distance(another_pen)</p></div>
+        </div>
+    </section>
+    <section class="main-content">
+        <header>
+            <h2 class="arabic">
+                ما هي الأدوات التي تتحكم بحالة القلم من خلالها؟
+            </h2>
+        </header>
+        <div class="container flex m-gap">
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.pendown() | <span class="turtle-file">pencil</span>.pd() | <span class="turtle-file">pencil</span>.down()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.penup() | <span class="turtle-file">pencil</span>.pu() | <span class="turtle-file">pencil</span>.up()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.pensize(width) | <span class="turtle-file">pencil</span>.width(width)</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.isdown()</p></div>
+        </div>
+    </section>
+    <section class="main-content">
+        <header>
+            <h2 class="arabic">
+             كيف نغير الألوان؟
+            </h2>
+        </header>
+        <div class="container flex m-gap">
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.pencolor()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.fillcolor()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.begin_fill()</p></div>
+            <div><p class="code turtle-method box"><span class="turtle-file">pencil</span>.end_fill()</p></div>
+        </div>
+    </section>
+</body>
+</html>

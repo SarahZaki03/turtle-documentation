@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+}
+h1{
+    font-family: 'Dosis';
+}
+.main-content{
+    width: 80vw;
+    min-height: 30vh;
+    margin: auto;
+    border-left: 7px solid;
+    border-right: 7px solid;
+}
+.start{
+    padding: 40px;
+    border-bottom: 7px solid;
+    background-color: rgb(241, 194, 142);
+}
+header h2{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.turtle-file{
+    color: rgb(9, 14, 152);
+    font-weight: 400;
+}
+.turtle-method{
+    color: green;
+    font-weight: 400;
+}
+.code{
+    padding: 21px;
+    font-size: 24px;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+}
+.code > p, .important-note{
+   
+    border-radius: 7px;
+    padding: 21px;
+    background-color: rgba(0, 0, 139, 0.119);
+    margin-top: 21px;
+}
+.important-note{
+    text-align: center;
+    background-color: white;
+    border: 3px dashed yellowgreen;
+}

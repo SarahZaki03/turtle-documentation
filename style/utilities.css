@@ -1,0 +1,17 @@
+.arabic{
+    font-family: 'Amiri';
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.m-gap{
+    gap: 30px;
+}
+.box{
+    border: 1px dashed darkblue;
+    background-color: rgba(0, 0, 139, 0.119);
+}
+.container{
+    padding: 21px;
+}
