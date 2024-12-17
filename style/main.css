@@ -11,19 +11,32 @@ h1{
 .main-content{
     width: 80vw;
     min-height: 30vh;
-    margin: auto;
-    border-left: 7px solid;
-    border-right: 7px solid;
+    margin: 21px auto;
+    border: 7px solid;
+    border-radius: 7px;
 }
-.start{
+div.start{
     padding: 40px;
     border-bottom: 7px solid;
-    background-color: rgb(241, 194, 142);
+    background-color: rgb(142, 198, 241);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Dosis';
 }
 header h2{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(215, 250, 217);
     padding: 20px;
+}
+a.python-tools{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 13px;
+}
+a.python-tools:hover{
+    background-color: rgb(215, 250, 217);
 }
 .turtle-file{
     color: rgb(9, 14, 152);
@@ -32,6 +45,9 @@ header h2{
 .turtle-method{
     color: green;
     font-weight: 400;
+}
+.tab-space{
+    margin-left: 75px;
 }
 .code{
     padding: 21px;
