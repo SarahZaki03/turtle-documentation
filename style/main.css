@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+html{
+    --dark-blue: #22577A;
+    --green: #57CC99;
+    --blue-green: #38A3A5;
+    box-sizing: content-box;
+}
 *{
     margin: 0;
 }
 h1{
     font-family: 'Dosis';
+    font-size: 60px;
 }
 .main-content{
     width: 80vw;
@@ -16,17 +22,19 @@ h1{
     border-radius: 7px;
 }
 div.start{
-    padding: 40px;
-    border-bottom: 7px solid;
-    background-color: rgb(142, 198, 241);
+    padding: 40px 40px 150px 40px;
+    border-bottom: 7px solid black;
+    background-color: var(--dark-blue);
+    color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Dosis';
 }
 header h2{
     text-align: center;
-    background-color: rgb(215, 250, 217);
-    padding: 20px;
+    background-color: var(--green);
+    padding: 13px;
 }
 a.python-tools{
     text-decoration: none;

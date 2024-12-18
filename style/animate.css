@@ -1,0 +1,51 @@
+.turtle-svg {
+    animation: slowRotate 5s linear infinite; /* Apply rotation animation */
+}
+/* Keyframe for slow rotation */
+@keyframes slowRotate {
+    0% {
+      transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    100% {
+      transform: rotate(-45deg); /* Rotate 45 degree */
+    }
+}
+
+.turtle-animation{
+animation: rotateForward 7s ease-in-out infinite alternate; /* Apply alternating animation */
+}
+
+/* Keyframe for rotating from 0 to 100 degrees */
+@keyframes rotateForward {
+    0% {
+        transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    50% {
+        transform: rotate(-55deg); /* Rotate to -65 degrees */
+    }
+    100% {
+        transform: rotate(0deg); /* Rotate back to 0 degrees */
+    }
+}
+
+.turtle-animation-box{
+    position: relative;
+    margin-top: -103px;
+}
+.turtle-animation-right-left {
+    position: absolute; /* Absolutely position the turtle inside the container */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+    animation: moveLeftToRight 15s ease-in-out infinite alternate;
+    width: 90%;
+  }
+
+  /* Keyframe for moving the turtle left to right */
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(0) translateY(-50%); /* Start from the left */
+    }
+    100% {
+      transform: translateX(100%) translateY(-50%); /* Move to the right */
+    }
+  }
