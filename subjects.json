@@ -1,0 +1,149 @@
+{
+    "Week #1":{
+        "topics":
+            [
+                "What is Python?",
+                "What is Modules?",
+                "Introduction to 'turtle' module.",
+                "Prepare your robot",
+                "forward()", 
+                "backward()", 
+                "left()", 
+                "right()"
+            ],
+        "homework":[
+            "Draw any shape using the four main commands"
+        ]
+    },
+    "Week #2":{
+        "topics":[
+            "How to use visual studio code",
+            "variables",
+            "print function",
+            "pensize()",
+            "shape()",
+            "speed()",
+            "x, y coordinates",
+            "goto()",
+            "home()",
+            "pencolor()",
+            "pos()",
+            "position()",
+            "using variables throw the program",
+            "for loop",
+            "range()",
+            "input()"
+        ],
+        "homework":[
+            "equal-sign",
+            "asterisk",
+            "capital a letter",
+            "student initial character",
+            "hexagon",
+            "triangle",
+            "squares-of-diff-size",
+            "squares-of-diff-angle"
+        ]
+    },
+    "Week #3":{
+        "topics":[
+            "Screen object",
+            "screen.bgcolor()",
+            "using multiple turtles for drawing",
+            "using variables inside all turtles",
+            "Reserved words",
+            "fillcolor()",
+            "begin_fill()",
+            "end_fill()",
+            "Statements vs Expressions",
+            "Code Flow",
+            {
+                "RGB color system":
+                    {
+                        "link": "https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/"
+                    }
+            },
+            "xcor()",
+            "ycor()",
+            "setx()",
+            "sety()"
+        ],
+        "homework":[
+            "overlapping-squares",
+            "square-quarter",
+            "country-flag",
+            "draw-home",
+            "flag-with-start"
+        ]
+    },
+    "Week #4":{
+        "topics":[
+            "Screen object",
+            "screen.bgcolor()",
+            "screen.bgpic('.png')",
+            "screen.title()",
+            "screen.setup()",
+            "list Introduction",
+            "أكمل من الكشكول الموضوعات",
+            "list in turtles"
+        ],
+        "homework":[
+            "moon",
+            "colored-spiral",
+            "stars-in-the-sky",
+            "colored-house"
+        ]
+    },
+    "Week #5":{
+        "topics":[
+            "list-slicing",
+            "access-list-elements",
+            "change-list-elements",
+            "looping-using-lists",
+            "write()",
+            "distance()",
+            "clone()",
+            "circle()"
+        ],
+        "homework":[
+            "pokemon-ball",
+            "half-watermallon",
+            "square-with-corner-squares"
+        ]
+    },
+    "Week #6":{
+        "topics":[
+            "Data types",
+            "Numerical operators",
+            "introduction to functions",
+            "introduction to events",
+            "screen.listen()",
+            "turtle.onkey()",
+            {
+                "Key-names": "https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/key-names.html"
+            }
+        ],
+        "homework":[
+            "draw-program"
+        ]
+    },
+    "Week #7":{
+        "topics":[
+            "comparison-operators",
+            "functions"
+        ],
+        "homework":[
+            "draw-home-using-functions",
+            "create three functions: move_to(x, y), draw_square(x, y, side_length), draw_rectangle(x, y, length, width)"
+        ]
+    },
+    "Week #8":{
+        "topics":[
+            "if statements",
+            "while loop"
+        ],
+        "homework":[
+            "drawer-application"
+        ]
+    }
+}

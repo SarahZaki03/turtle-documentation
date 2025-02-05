@@ -30,7 +30,7 @@ animation: rotateForward 7s ease-in-out infinite alternate; /* Apply alternating
 
 .turtle-animation-box{
     position: relative;
-    margin-top: -103px;
+    /* margin-top: -103px; */
 }
 .turtle-animation-right-left {
     position: absolute; /* Absolutely position the turtle inside the container */

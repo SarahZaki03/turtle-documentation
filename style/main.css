@@ -30,6 +30,11 @@ div.start{
     justify-content: space-between;
     align-items: center;
     font-family: 'Dosis';
+    margin-block-end: 85px;
+    gap: 1.5rem;
+}
+.flex-item{
+    margin-inline-start: auto;
 }
 header h2{
     text-align: center;
@@ -40,11 +45,16 @@ a.python-tools{
     text-decoration: none;
     font-size: 30px;
     background-color: aliceblue;
+    border: 2px solid transparent;
     padding: 8px;
     border-radius: 13px;
 }
-a.python-tools:hover{
+a.python-tools:hover {
     background-color: rgb(215, 250, 217);
+}
+a.active-page{
+    background-color: rgb(250, 215, 228);
+    border: 2px dashed #22577a;
 }
 .turtle-file{
     color: rgb(9, 14, 152);
