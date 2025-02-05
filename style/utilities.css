@@ -5,8 +5,17 @@
     display: flex;
     flex-wrap: wrap;
 }
+.flex-column{
+    flex-direction: column;
+}
+.s-gap{
+    gap: 13px;
+}
 .m-gap{
     gap: 30px;
+}
+.m-0{
+    margin: 0;
 }
 .box{
     border: 1px dashed darkblue;
